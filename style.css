@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1:hover{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    transform: rotate(20%);
+}
