@@ -2,9 +2,225 @@
     margin: 0px;
     padding: 0px;
 }
-h1:hover{
-    background-color: blueviolet;
+
+.menu-container{
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.menus{
+    display: flex;
+}
+.menus li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo-photo{
+    width: 120px;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.a:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+
+.b:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+.c:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+.d:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size:55px;
+    font-weight: bold;
+
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding:10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: rgb(32, 32, 32);
     font-family: Arial, Helvetica, sans-serif;
-    width: 10%;
-    transform: rotate(20%);
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;
+}
+.about-us-section{
+    height: 500px;
+}
+.about-title{
+    text-align: center;
+    padding-top:10px;
+}
+.about-info h1{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.about-info p{
+    margin-top: 5px;
+}
+
+.btn2{
+    padding:10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+    box-shadow: inset 125px 0 0 0 #dddd;
+    color: rgb(201, 0, 0);
+}
+
+
+.box{
+    width: 230px;
+    height: 270px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+
+}
+.btn3{
+    background-color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px red;
+    margin-top: 10px;
+}
+.btn3:hover{
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+    box-shadow: inset 125px 0 0 0 #df0000dd;
+    color: rgb(255, 255, 255);
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.service-section{
+   background-color: gray
+}
+
+.title-about-title{
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-section{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.839);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer-box{
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.839);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.hrtag{
+    width: 80%;
+    background-color: black;
+}
+.hrline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.839);
 }
